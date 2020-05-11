@@ -70,7 +70,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/1Hero.jpg");
+    background-image: url("../images/Hero.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -85,13 +85,16 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.flexbox {
+    margin-bottom: 20px;
+    font-size: 46px;
+    width: 200px;
+    padding-right: 30px;
+    text-align: right;
+    display: flex;
 }
 
-.About-Me {
+.vertbox {
     margin-bottom: 20px;
     height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -100,7 +103,7 @@ p {
     padding: 30px 40px 0px 50px;
 }
 
-.About-Me h1 {
+.vertbox h1 {
     margin-bottom: 20px;
     font-size: 46px;
     width: 200px;
@@ -109,15 +112,28 @@ p {
     height: auto;
 }
 
-.About-Me p {
+
+.vertbox p {
     padding-left: 20px;
     margin: auto 30 px auto;
 }
 
+.Work {
+    margin-bottom: 20px;
+    height: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    padding: 30px 40px 0px 50px;
+}
+
+
 .Work h1 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 46px;
     width: 200px;
+    padding-right: 30px;
+    text-align: right;
+    height: 1000px;
 }
 
 
@@ -131,11 +147,11 @@ p {
 .Work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: max-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    color: var(--darkblue);
 }
+
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -146,21 +162,9 @@ p {
     color: #ffffff;
 }
 
-.About-Me img {
-    max-height: 200px;
-}
-
-.Work img {
-    max-height: 200px;
-}
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.Work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .social-media-marketing h2 {
