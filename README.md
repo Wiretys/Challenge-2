@@ -1,6 +1,22 @@
-First project so I am unsure of how to do a Read.me
+# Challenge 2 - Advanced CSS
 
-Github https://github.com/Wiretys/Challenge-2. My link for the project I did not do very well on: https://wiretys.github.io/Challenge-1/
+Project was designed to expand my knowledge of CSS.
 
-Authors
-Rex Wilson - Project Name - Challenge 2
+
+## Features Used
+
+* HTML
+* CSS
+
+
+ My work schedule prevented me from doing what I would have liked on this project. I have since quit work, so that is behind me!
+
+Links: 
+```
+https://wiretys.github.io/Challenge-2/
+
+https://github.com/Wiretys/Challenge-2
+
+## Contributer
+Rex Wilson
+
